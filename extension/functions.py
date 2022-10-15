@@ -30,12 +30,14 @@ SCOPES = ['https://www.googleapis.com/auth/calendar']
 
 CREDENTIALS_FILE = 'credentials.json'
 
+
 connection = mysql.connector.connect(host='localhost',
                                      #database='database',
                                      database='flaskdb',
                                      user='root',
                                     #password='4ntelopeXD!')  ######### change accordingly
                                      password='Adev123..')  ######### change accordingly
+
 
 cursor = connection.cursor()
 

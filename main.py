@@ -525,7 +525,7 @@ def create_order():
                 phone = records[4]
                 emailaddr  = records[7]
 
-                send_notif(name,track_no,phone) ## whatsapp notifications
+                #send_notif(name,track_no,phone) ## whatsapp notifications
 
                 # creates one hour event tomorrow 10 AM IST
                 service = get_calendar_service()
