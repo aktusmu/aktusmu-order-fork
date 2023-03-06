@@ -143,8 +143,9 @@
         <br>
         <div class="form-group">
             <label for="assigned" class="form-label">Assigned To</label>
-                <select id="assigned" name="assigned" class="form-control" required>
+                <select id="assigned" name="assigned" class="form-control" onfocus="this.value=''" required>
                     {% for item in records %}
+                    <option>Select Assignee</option>
                     <option>{{item[0]}}</option>
                     {% endfor %}
 
