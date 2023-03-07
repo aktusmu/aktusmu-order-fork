@@ -49,8 +49,10 @@ login_manager.login_view = 'login'
 
 # connection = mysql.connector.connect(host='localhost',
 #                                      database='wmodb',
+# USE THIS                             database='womdb', 
 #                                      user='root',
 #                                      password='Aktusmu2019') ######### change accordingly
+# USE THIS                             password='Aktusmu-20!9') ######### change accordingly
 
 try:
     if connection.is_connected():
